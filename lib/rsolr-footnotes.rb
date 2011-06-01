@@ -1,7 +1,7 @@
 require 'rsolr'
 require 'rails-footnotes'
 require 'rails-footnotes/footnotes'
-require 'rails-footnotes/notes/abstract_note'
+require 'rails-footnotes/abstract_note'
 require 'active_support/notifications'
 
 module RsolrFootnotes

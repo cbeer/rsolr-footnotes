@@ -6,11 +6,12 @@ Preliminary testing has only been performed in Blacklight (http://projectblackli
 
 = Installation
 
-=== Rails 3.x
-  
+Add the following to your application's Gemfile:
+
   gem "rails-footnotes", ">= 3.7", :group => :development
   gem "rsolr-footnotes", :group => :development
 
+And then run `bundle install`.
 
 == Contributing to rsolr-footnotes
  

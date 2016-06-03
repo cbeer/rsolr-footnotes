@@ -1,4 +1,4 @@
-module RSolr::Ext
+module Rsolr::Footnotes
   module Notifications
     def self.included(base)
       base.send :extend, ClassMethods

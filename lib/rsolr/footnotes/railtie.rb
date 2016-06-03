@@ -1,9 +1,9 @@
-require 'rsolr-footnotes'
+require 'rsolr/footnotes'
 require 'rails'
 
 module RsolrFootnotes
   class Railtie < Rails::Railtie
-    RsolrFootnotes.load!
+    Rsolr::Footnotes.load!
     Footnotes::Filter.notes += [:rsolr_requests]
   end
 end
